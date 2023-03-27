@@ -143,7 +143,7 @@ I would like to thank to all my Mricronauts partners for helping when stack and 
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](https://github.com/Tracy-miranja/mobile-version-/blob/add-license-2/LICENCE)
+This project is [MIT](https://github.com/Tracy-miranja/math-magician/blob/add-license-1/LICENCE)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
