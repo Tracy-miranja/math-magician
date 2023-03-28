@@ -25,3 +25,39 @@ code {
     'Courier New',
     monospace;
 }
+
+.Keys{
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Orange{
+background-color: orange;
+}
+button{
+  height: 50px;
+}
+.Zero{
+  grid-column: 1/3;
+}
+.screen{
+  display: flex;
+  width: 29.8%;
+  height: 50px;
+  align-items: center;
+  justify-content: flex-end;
+  border: 3px solid black;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.display{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.App{
+  text-align: center;
+}
