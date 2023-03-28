@@ -47,6 +47,8 @@ button{
   height: 50px;
   align-items: center;
   justify-content: flex-end;
+  background-color: rgb(133, 130, 130);
+  color: white;
   border: 3px solid black;
   margin-bottom: 0px;
   font-weight: 600;
