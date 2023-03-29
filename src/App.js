@@ -1,4 +1,4 @@
-import Display from './components/Screen';
+import Display from './components/Calculator';
 
 function App() {
   return (
