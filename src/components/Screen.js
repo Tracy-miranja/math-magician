@@ -1,10 +1,10 @@
-import KeyPad from './Calculator';
+// import Calculator from './Calculator';
 
-const Display = () => (
-  <div className="display">
-    <p className="screen">0</p>
-    <KeyPad />
-  </div>
+// const Display = () => (
+//   <div className="display">
+//     <p className="screen">0</p>
+//     <Calculator />
+//   </div>
 
-);
-export default Display;
+// );
+// export default Display;
