@@ -29,7 +29,7 @@ function Display() {
   return (
     <div className="all">
       <div className="screen">
-        { displayValues() }
+        { displayValues()}
       </div>
       <div className="Keys">
         <button type="button" onClick={() => onButtonClick('AC')}>AC</button>
