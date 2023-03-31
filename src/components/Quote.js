@@ -32,7 +32,7 @@ const Apps = () => {
     quotesApi();
   }, [setQuotes, setIsLoading]);
   return (
-    <div>
+    <div className="quotesbox">
       {isLoading ? loadingMessage : null}
       {hasError ? errorMessage : null}
       {quotes && Array.isArray(quotes)
