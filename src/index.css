@@ -74,3 +74,10 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.quotesbox {
+  text-align: center;
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
