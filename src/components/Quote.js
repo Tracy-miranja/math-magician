@@ -38,8 +38,14 @@ const Apps = () => {
       {quotes && Array.isArray(quotes)
         && quotes.map((data) => (
           <div key={id()}>
-            <h1>{data.quote}</h1>
-            <h3>{data.author}</h3>
+            <h1>
+              {data.quote}
+              {' '}
+              -
+              {' '}
+              {data.author}
+            </h1>
+            {/* <h3 /> */}
           </div>
         ))}
     </div>
