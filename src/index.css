@@ -27,7 +27,7 @@ code {
 }
 
 .Keys {
-  width: 30%;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -37,7 +37,7 @@ code {
 }
 
 button {
-  height: 50px;
+  height: 70px;
 }
 
 .Zero {
@@ -46,7 +46,7 @@ button {
 
 .screen {
   display: flex;
-  width: 29.8%;
+  width: 49.8%;
   height: 50px;
   align-items: center;
   justify-content: flex-end;
@@ -71,8 +71,9 @@ button {
 .all {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 50px;
 }
 
 .quotesbox {
@@ -96,3 +97,4 @@ ul li{
 .lnks{
   border-left: 3px solid black;
 }
+

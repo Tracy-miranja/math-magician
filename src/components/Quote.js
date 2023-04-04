@@ -32,10 +32,12 @@ const Apps = () => {
     quotesApi();
   }, [setQuotes, setIsLoading]);
   return (
-    <div className="quotesbox">
-      {isLoading ? loadingMessage : null}
-      {hasError ? errorMessage : null}
-      {quotes && Array.isArray(quotes)
+    <>
+      <h1>Math Magicians</h1>
+      <div className="quotesbox">
+        {isLoading ? loadingMessage : null}
+        {hasError ? errorMessage : null}
+        {quotes && Array.isArray(quotes)
         && quotes.map((data) => (
           <div key={id()}>
             <h1>
@@ -48,7 +50,8 @@ const Apps = () => {
             {/* <h3 /> */}
           </div>
         ))}
-    </div>
+      </div>
+    </>
   );
 };
 
