@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import Apps from './Quote';
+// import Apps from './Quote';
 
 function Display() {
   const [state, setState] = useState({
@@ -29,7 +29,7 @@ function Display() {
 
   return (
     <section className="container">
-      <Apps />
+
       <div className="all">
         <div className="screen">
           { displayValues()}

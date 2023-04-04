@@ -1,11 +1,17 @@
 import Display from './components/Calculator';
+import Apps from './components/Quote';
+import Home from './components/Home';
 
 function App() {
   return (
+
     <div className="App">
-      <h1>Math Magicians</h1>
+      <Home />
+      <Apps />
       <Display />
+
     </div>
+
   );
 }
 
