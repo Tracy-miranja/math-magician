@@ -14,6 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(1, 1, 19);
+  color: #e5e5e5;
 }
 
 code {
@@ -27,7 +29,7 @@ code {
 }
 
 .Keys {
-  width: 30%;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -37,7 +39,7 @@ code {
 }
 
 button {
-  height: 50px;
+  height: 70px;
 }
 
 .Zero {
@@ -46,7 +48,7 @@ button {
 
 .screen {
   display: flex;
-  width: 29.8%;
+  width: 49.8%;
   height: 50px;
   align-items: center;
   justify-content: flex-end;
@@ -64,20 +66,97 @@ button {
   flex-direction: column;
 }
 
-.App {
-  text-align: center;
-}
+/* .App {
+  padding: 40px;
+} */
 
 .all {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.qqoutes {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  padding-top: 10%;
 }
 
 .quotesbox {
   text-align: center;
+  align-content: center;
   padding: 20px;
-  padding-left: 150px;
-  padding-right: 150px;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 44%);
+  border-radius: 50px;
+  width: 60%;
+  height: auto;
+  background-color: antiquewhite;
+  color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+
+  /* float: right; */
+  font-weight: 500;
+  color: blue;
+}
+
+.lnks {
+  border-left: 3px solid black;
+}
+
+.finaal {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  font-size: 20px;
+}
+
+.paragraph {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.Homepage {
+  height: 50vh;
+  padding: 40px;
+  border-bottom: #e5e5e5;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.page1 {
+  padding: 70px;
+}
+
+.navbar {
+  display: flex;
+  padding-right: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding-top: 0%;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 44%);
+}
+
+.logo {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
 }
