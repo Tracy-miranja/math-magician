@@ -73,7 +73,6 @@ button {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-top: 50px;
 }
 
 .quotesbox {
@@ -82,10 +81,12 @@ button {
   padding-left: 150px;
   padding-right: 150px;
 }
-ul li{
+
+ul li {
   list-style: none;
   display: block;
   height: 20px;
+
   /* border-left: 4px solid black; */
   padding: 5px;
   margin-left: 20px;
@@ -94,7 +95,16 @@ ul li{
   font-weight: 500;
   color: blue;
 }
-.lnks{
+
+.lnks {
   border-left: 3px solid black;
 }
 
+.finaal {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  font-size: 20px;
+}

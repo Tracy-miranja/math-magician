@@ -31,7 +31,7 @@ function Display() {
     <section className="container">
       <h1>Math Magicians</h1>
       <div className="finaal">
-        <p>let us do math</p>
+        <p className="para">let us do math</p>
         <div className="all">
           <div className="screen">
             { displayValues()}
