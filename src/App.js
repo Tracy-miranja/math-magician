@@ -8,11 +8,14 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <ul>
-          <li className="lnks"><Link to="/Calculator">Calculator</Link></li>
-          <li className="lnks"><Link to="/Quotes">Quotes</Link></li>
-          <li><Link to="/">Home</Link></li>
-        </ul>
+        <div className="navbar">
+          <span className="logo">Math Magicians</span>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li className="lnks"><Link to="/Quotes">Quotes</Link></li>
+            <li className="lnks"><Link to="/Calculator">Calculator</Link></li>
+          </ul>
+        </div>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -29,9 +29,8 @@ function Display() {
 
   return (
     <section className="container">
-      <h1>Math Magicians</h1>
       <div className="finaal">
-        <p className="para">let us do math</p>
+        <p className="para">let us do some math!!</p>
         <div className="all">
           <div className="screen">
             { displayValues()}

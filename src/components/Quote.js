@@ -32,8 +32,7 @@ const Apps = () => {
     quotesApi();
   }, [setQuotes, setIsLoading]);
   return (
-    <>
-      <h1>Math Magicians</h1>
+    <section className="qqoutes">
       <div className="quotesbox">
         {isLoading ? loadingMessage : null}
         {hasError ? errorMessage : null}
@@ -47,11 +46,10 @@ const Apps = () => {
               {' '}
               {data.author}
             </h1>
-            {/* <h3 /> */}
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 
