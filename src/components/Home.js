@@ -3,7 +3,7 @@ function Home() {
     <div className="Homepage">
       <h1>Math Magicians</h1>
       <h2>Welcome to our homepage!!</h2>
-      <p>
+      <p className="paragraph">
         Math magicians is a term that could be used to describe someone
         who is particularly skilled at mathematics, able to perform complex
         calculations mentally, or has a deep understanding of mathematical concepts.
@@ -11,7 +11,7 @@ function Home() {
         It may also refer to a teacher or educator who has a gift for making math fun
         and interesting for students.
       </p>
-      <p>
+      <p className="paragraph">
         The term math magician could also be used as a playful or whimsical way to describe
         someone who seems to have a natural talent for math, much like a magician has a natural
         talent for magic tricks.However, it is important to note that there is no actual magic
