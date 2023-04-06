@@ -21,4 +21,14 @@ describe('calculate', () => {
     const result = calculate({ total: '40', next: '20', operation: '+' }, buttonName);
     expect(result).toEqual(expected);
   });
+  test('it should return total after minus next number when the pressed button -', () => {
+    const buttonName = '-';
+    const expected = {
+      next: null,
+      operation: '-',
+      total: '90',
+    };
+    const result = calculate({ total: '110', next: '20', operation: '-' }, buttonName);
+    expect(result).toEqual(expected);
+  });
 });
