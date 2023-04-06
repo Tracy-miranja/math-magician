@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the quote component 1`] = `
+<section
+  className="qqoutes"
+>
+  <div
+    className="quotesbox"
+  />
+</section>
+`;

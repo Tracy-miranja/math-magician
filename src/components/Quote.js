@@ -46,6 +46,7 @@ const Apps = () => {
               {' '}
               {data.author}
             </h1>
+            <h3>{data.loadingMessage}</h3>
           </div>
         ))}
       </div>
