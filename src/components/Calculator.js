@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-// import Apps from './Quote';
 
 function Display() {
   const [state, setState] = useState({
