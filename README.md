@@ -98,7 +98,7 @@ To run the project, run command npm start in the command line,,it will be opened
  
 - GitHub: [@githubhandle](https://github.com/Tracy-miranja)
 - Twitter: [@twitterhandle](https://twitter.com/tracymiranja)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tracymiranja)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tracy-miranja-82349b204/)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
